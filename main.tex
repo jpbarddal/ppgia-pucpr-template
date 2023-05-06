@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TEMPLATE DE DISSERTAÇÕES E TESES DO PPGIA/PUCPR
+% CRIADO POR: JEAN PAUL BARDDAL
+% VERSÃO 1 - DEZEMBRO DE 2022
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{ppgia}
+
+% pt-br ou en-us
+\idioma{pt-br}
+
+\title{Título do Documento}
+
+\author{Nome Completo do(a) Estudante}
+%\studentId{1518036}
+
+% Orientador
+\orientador{Nome do(a) Orientador(a)}
+
+% Co-orientador, caso exista
+\coorientador{Nome do(a) Co-orientador(a)}
+\coorientadorUniversidade{Universidade do(a) co-orientador(a)}
+
+%tipo do documento (pdm, msc, pdd, phd)
+% pdm = qualificacao de mestrado
+% msc = dissertacao completa de mestrado
+% pdd = qualificacao de doutorado
+% phd = tese completa de doutorado
+\tipodocumento{pdd}
+
+% cidade
+\cidade{Curitiba}
+
+% universidade (não alterar)
+\universidade{Pontifícia Universidade Católica do Paraná}
+% programa (não alterar)
+\programa{Programa de Pós-Graduação em Informática}
+\ano{2022}
+
+% arquivo da ficha catalografica (comentar a linha com % se nao houver ainda)
+%\pathfichacatalografica{catalogacao.pdf}
+
+% arquivo da declaracao do programa (comentar a linha com % se não houver ainda)
+%\pathdeclaracaoconclusao{declaracao_defesa.pdf}
+
+
+\begin{document}
+	% Papara capa, contra-capa, dedicatória, resumo, abstract, sumário, listas de figuras, ...
+	\frontmatter
+	
+	% Inicia contadores para paginação adequada do restante do documento
+	\mainmatter
+	
+	% Adicione abaixo os capítulos conforme necessário
+	\include{capitulos/cap1.tex}
+	\include{capitulos/cap2.tex}
+	
+	% Bibliography, appendix, acknowledges, etc...
+    \backmatter
+\end{document}

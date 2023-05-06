@@ -1,0 +1,123 @@
+\chapter{Introdução}
+
+Abaixo temos uma dissertação ou tese escrita em \LaTeX.
+Com \LaTeX você não precisa ter pesadelos para fazer referências. Veja como é simples: \cite{knuth1984tex}.
+Sim, já está no formato da ABNT e você não perdeu o sono por conta disso.
+
+\lipsum[2-4]
+
+\begin{longcitation}
+	A boa notícia para os profissionais de software é que a economia mundial depende cada vez mais de software. Os sistemas que utilizam software intensivamente, que a tecnologia torna possível e a sociedade demanda, estão aumentando em tamanho, complexidade, distribuição e importância. A notícia ruim é que a expansão desses sistemas em tamanho, complexidade, distribuição e importância, empurram os limites do que nós, na indústria de software, sabemos como desenvolver. (...) Para aumentar o problema, o negócio continua a demandar produtividade crescente e melhor qualidade, com desenvolvimento e entrega mais rápidos. Adicionalmente, ainda, a disponibilidade de pessoal de desenvolvimento qualificado não é condizente com a demanda. (p. 3, tradução nossa)
+\end{longcitation}
+
+\lipsum[2-4]
+\lipsum[2-4]
+
+No Algoritmo \ref{alg:cap} temos um exemplo de um algoritmo.
+
+\begin{algorithm}
+\caption{Um algoritmo}\label{alg:cap}
+\begin{algorithmic}[1]
+\Require $n \geq 0$
+\Ensure $y = x^n$
+\State $y \gets 1$
+\State $X \gets x$
+\State $N \gets n$
+\While{$N \neq 0$}
+\If{$N$ is even}
+    \State $X \gets X \times X$
+    \State $N \gets \frac{N}{2}$  \Comment{Um comentário}
+\ElsIf{$N$ is odd}
+    \State $y \gets y \times X$
+    \State $N \gets N - 1$
+\EndIf
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+
+\section{Outra Seção}
+\lipsum[2-4]
+
+Agora um exemplo de nota de rodapé\footnote{Um rodapé.}.
+
+\lipsum[2-4]
+
+Abaixo temos também um exemplo de código-fonte (Código \ref{cod:fibonacci}), que é diferente de um algoritmo.
+\begin{lstlisting}[language=Python, caption=A função de Fibonacci escrita em Python., label=cod:fibonacci]
+	def fibonacci(n):
+		if n <= 1:
+			return n
+		else:
+			return fibonacci(n-1) + fibonacci(n-2)
+\end{lstlisting}
+	
+	
+\lipsum[2-4]		
+
+\subsubsection{Uma subsubseção de exemplo}
+
+Um exemplo de citação da Figura \ref{fig:logopucpr}.
+
+\begin{figure}[!t]
+	\centering
+	\resizebox{0.5\textwidth}{!}{
+		\includegraphics{template/PUCPR_logo.jpg}
+	}
+	\caption{A logo da PUCPR.}
+	\label{fig:logopucpr}
+\end{figure}	
+
+\lipsum[2-4]	
+
+\subsubsection{Outra subsubseção W}
+	
+\lipsum[2-4]	
+
+\lipsum[2-4]		
+
+\paragraph{Um parágrafo}
+
+\lipsum[2-4]	
+\lipsum[2-4]	
+\paragraph{Mais um parágrafo}
+\lipsum[2-4]	
+\lipsum[2-4]	
+
+Abaixo temos um exemplo de Quadro \ref{quad:quadro}.
+\begin{quadro}
+\centering
+\caption{Quadro tal e tal.} \label{quad:quadro}
+\begin{tabular}{c|c}
+\hline
+Coluna 1 & Coluna 2 \\
+\hline
+123 & 456\\
+123 & 456\\
+\hline
+\end{tabular}
+
+\end{quadro}
+
+\lipsum[2-4]	
+\lipsum[2-4]	
+
+
+Agora um exemplo da Tabela \ref{tab:tabela}.
+
+\begin{table}
+	\centering
+	\caption{Uma tabela com dados.}
+	\label{tab:tabela}
+	\begin{tabular}{|c|c|}
+		\hline
+		Coluna 1 & Coluna 2 \\
+		\hline
+		12 & 34 \\
+		56 & 78 \\
+		\hline	
+	\end{tabular}
+\end{table}
+
+\lipsum[2-4]	
+\lipsum[2-4]	
+
