@@ -209,7 +209,7 @@
 		\renewcommand{\listquadroname}{Lista de Quadros}	
 %		\newcommand{\listschemename}{Lista of Charts}	
 	}{
-		\renewcommand{\listquadroname}{Lista of Charts}		
+		\renewcommand{\listquadroname}{List of Charts}		
 %		\newcommand{\listschemename}{Lista de Quadros}	
 	}			
 	
@@ -402,7 +402,7 @@
 	  \renewcommand{\listfigurename}{List of Figures}
 	  \renewcommand{\listtablename}{List of Tables}
 	  %\renewcommand{\listquadroname}{List of Charts (?)}	  
-	  \renewcommand{\listalgorithmname}{Lista of Algorithms}
+	  \renewcommand{\listalgorithmname}{List of Algorithms}
 	  \renewcommand{\lstlistingname}{Code} % Caption name of code snippets
 	  \renewcommand{\lstlistlistingname}{List of Codes}
 	  \def\listacronymname{List of Acronyms}
