@@ -104,7 +104,7 @@ Coluna 1 & Coluna 2 \\
 
 Agora um exemplo da Tabela \ref{tab:tabela}.
 
-\begin{table}
+\begin{table}[H] % para tabela ficar na mesma posição da escrita :)
 	\centering
 	\caption{Uma tabela com dados.}
 	\label{tab:tabela}
@@ -117,6 +117,22 @@ Agora um exemplo da Tabela \ref{tab:tabela}.
 		\hline	
 	\end{tabular}
 \end{table}
+
+Agora um exemplo de equação.
+
+\begin{equation}
+    \overline{x}_i = \frac{(i-1) \times \overline{x}_{i-1} + x_i}{i} =  \overline{x}_{i-1} + \frac{x_i - \overline{x}_{i-1}}{i}
+    \label{eq:mean_incremental}
+\end{equation}
+
+
+\begin{equation}  
+\begin{gathered} 
+ \sigma_{i} = \frac{s_i}{i}, \\
+ s_i = s_{i - 1} + (x_{i} -  \overline{x}_{i-1}) \times (x_{i} -  \overline{x}_{i})
+\end{gathered}
+\label{eq:var_incremental}
+\end{equation}
 
 \lipsum[2-4]	
 \lipsum[2-4]	
