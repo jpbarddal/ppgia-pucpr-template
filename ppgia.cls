@@ -802,7 +802,7 @@
 		\begin{minipage}{80mm}
 			\ifthenelse{\equal{\@idioma}{pt-br}}{
 				\normalsize \@tipodocumentoextenso ~apresentada ao Programa de Pós-Graduação em Informática como requisito parcial para obtenção do título de \@tipotitulo ~em Informática.\\
-				\textsc{\textbf{Campo de Concentração}}: \@majorfield\\				
+				\textsc{\textbf{Área de Concentração}}: \@majorfield\\				
 				\textsc{\textbf{Orientador}: \@orientador} \\
 				% co-orientador (se houver)
 				\ifthenelse{\equal{\@coorientador}{\@empty}}{
